@@ -4,7 +4,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
     res.statusCode = 200; // Set HTTP status code to 200 (OK)
     res.setHeader('Content-Type', 'text/plain'); // Set response content type
-    res.end('Hello MI6\n'); // Send response message
+    res.end('Hello MI6. This is my second commit\n'); // Send response message
 });
 
 // Define the port and hostname (localhost)
